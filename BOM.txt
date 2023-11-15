@@ -1,0 +1,10 @@
+To build this, you need:
+- the pcb
+- 2x TXB0108
+- 2x 10uF 1206 SMD capacitor
+- 2x 100/330/500kOHm 1206 SMD resistor
+- 2x 1x15 2.54mm pitch female THT sockets
+- 1x 2x8 2.54mm pitch male THT IDC plug
+- 1x JST S2B-EH 90°
+
+Solder everything together according to the schematic and run the software on the arduino. Connect your Panel and done.
