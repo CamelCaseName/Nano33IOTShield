@@ -2259,7 +2259,7 @@
   (symbol (lib_id "Logic_LevelTranslator:TXB0108DQSR") (at 121.92 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05e7d385-33f1-4904-b842-7d9cfb1b0a55)
-    (property "Reference" "U2" (at 124.1141 113.03 0)
+    (property "Reference" "U1" (at 124.1141 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TXB0108DQSR" (at 124.1141 115.57 0)
@@ -2294,7 +2294,7 @@
     (instances
       (project "LvL_shifter_shield"
         (path "/74ddfcee-fcec-4e00-880d-25eef1dc4f86"
-          (reference "U2") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -2303,7 +2303,7 @@
   (symbol (lib_id "Logic_LevelTranslator:TXB0108DQSR") (at 121.92 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b6449e0-4f46-489c-a571-d52a1267ad7f)
-    (property "Reference" "U1" (at 124.1141 69.85 0)
+    (property "Reference" "U2" (at 124.1141 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TXB0108DQSR" (at 124.1141 72.39 0)
@@ -2338,7 +2338,7 @@
     (instances
       (project "LvL_shifter_shield"
         (path "/74ddfcee-fcec-4e00-880d-25eef1dc4f86"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -2397,7 +2397,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x08_Odd_Even") (at 182.88 62.23 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 334d4fe3-0f1b-4e52-b5e4-e8d726fde136)
-    (property "Reference" "J1" (at 181.61 48.26 0)
+    (property "Reference" "J2" (at 181.61 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x08_Counter_Clockwise" (at 168.91 50.8 0)
@@ -2428,7 +2428,7 @@
     (instances
       (project "LvL_shifter_shield"
         (path "/74ddfcee-fcec-4e00-880d-25eef1dc4f86"
-          (reference "J1") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -2437,7 +2437,7 @@
   (symbol (lib_id "Connector:Conn_01x15_Socket") (at 72.39 134.62 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 35b2c9ae-31f1-4779-adc6-f44af4774c96)
-    (property "Reference" "J3" (at 80.01 114.3 0)
+    (property "Reference" "J4" (at 80.01 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x15_Socket" (at 80.01 111.76 0)
@@ -2467,7 +2467,7 @@
     (instances
       (project "LvL_shifter_shield"
         (path "/74ddfcee-fcec-4e00-880d-25eef1dc4f86"
-          (reference "J3") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -2504,7 +2504,7 @@
     (property "Reference" "R3" (at 109.22 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "${SIM.PARAMS}" (at 109.22 19.05 0)
+    (property "Value" "r=0" (at 109.22 19.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 106.68 17.78 0)
@@ -2564,7 +2564,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 85.09 27.94 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 89e5eecf-84db-415f-8a67-039ac46cf096)
-    (property "Reference" "J4" (at 86.36 34.29 0)
+    (property "Reference" "J1" (at 86.36 34.29 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Power" (at 86.36 30.48 0)
@@ -2581,7 +2581,7 @@
     (instances
       (project "LvL_shifter_shield"
         (path "/74ddfcee-fcec-4e00-880d-25eef1dc4f86"
-          (reference "J4") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -2590,7 +2590,7 @@
   (symbol (lib_id "Device:C_Small") (at 114.3 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a1274623-38e0-43a8-9a19-f456ba354043)
-    (property "Reference" "C1" (at 116.84 22.8663 0)
+    (property "Reference" "C2" (at 116.84 22.8663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 116.84 25.4 0)
@@ -2613,7 +2613,7 @@
     (instances
       (project "LvL_shifter_shield"
         (path "/74ddfcee-fcec-4e00-880d-25eef1dc4f86"
-          (reference "C1") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -2625,7 +2625,7 @@
     (property "Reference" "R1" (at 107.95 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "${SIM.PARAMS}" (at 107.95 39.37 0)
+    (property "Value" "r=100k" (at 107.95 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (at 105.41 38.1 0)
@@ -2663,7 +2663,7 @@
     (property "Reference" "R2" (at 106.68 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "${SIM.PARAMS}" (at 106.68 82.55 0)
+    (property "Value" "r=100k" (at 106.68 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (at 104.14 81.28 0)
@@ -2723,7 +2723,7 @@
   (symbol (lib_id "Device:C_Small") (at 114.3 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cfd16206-464e-46ca-b886-c037f3c0fc97)
-    (property "Reference" "C2" (at 116.84 30.4863 0)
+    (property "Reference" "C1" (at 116.84 30.4863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 116.84 33.02 0)
@@ -2746,7 +2746,7 @@
     (instances
       (project "LvL_shifter_shield"
         (path "/74ddfcee-fcec-4e00-880d-25eef1dc4f86"
-          (reference "C2") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -2780,7 +2780,7 @@
   (symbol (lib_id "Connector:Conn_01x15_Socket") (at 58.42 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fce2435b-fd3f-4a34-9f12-66bf30be00dd)
-    (property "Reference" "J2" (at 48.26 154.94 0)
+    (property "Reference" "J3" (at 48.26 154.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x15_Socket" (at 48.26 157.48 0)
@@ -2810,7 +2810,7 @@
     (instances
       (project "LvL_shifter_shield"
         (path "/74ddfcee-fcec-4e00-880d-25eef1dc4f86"
-          (reference "J2") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
